@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<title>Send Us a Message</title>
+	</head>
+	<header>
+		<h1>Contact Us</h1>
+		<h2>Send Us A Message</h2>
+		<p>We usually respond within 1 business day.</p>
+	</header>
+	<body>
+		<form method="post" action="#">
+			<fieldset class="general-info">
+				<legend>General Info</legend>
+				<label for="name">Name
+					<input type="text" id="name" placeholder="John Smith">
+				</label>
+				<label for="email">Email
+					<input type="text" id="email" placeholder="name@mydomain.com.au">
+				</label>
+				<label for="company">Company
+					<input type="text" id="company" placeholder="Acme Inc">
+				</label>
+				<label for="howdidyouhearaboutus">How did you hear about us?
+					<input type="text" id="howdidyouhearaboutus" placeholder="Event">
+				</label>
+				<label for="whatwouldyouliketodiscuss">What would you like to discuss
+					<input class="radio" type="radio" name="whatwouldyouliketodiscuss" value="Hiring Philosophie">Hiring Philosophie</input>
+					<input type="radio" name="whatwouldyouliketodiscuss" value="Joining the philosphie team">Joining the philosphie team</input>
+					<input type="radio" name="whatwouldyouliketodiscuss" value="Other">Other</input>
+				</label>
+			</fieldset>
+			<fieldset class="project-info">
+				<legend>Project Info</legend>
+				<label for="offerings">Which of our offerrings interest you?
+					<input type="checkbox" id="offerings">
+				</label>
+				<label for="problem">What is the problem you are trying to solve?
+					<input type="text" id="problem" placeholder="i've got 99 problems but answering you question aint one">
+				</label>
+				<label for="accomplish">What do you hope our engagement will accomplish?
+					<input type="text" id="accomplish" placeholder="tell us you expectations">
+				</label>
+				<label for="budget">What is your budget range?
+					<input type="radio" name="budget" value="40k">less than 40k</input>
+					<input type="radio" name="budget" value="40-100k">40-100k</input>
+					<input type="radio" name="budget" value="100-250k">100k-250k</input>
+					<input type="radio" name="budget" value="-250-500k">250k-500k</input>
+					<input type="radio" name="budget" value="500k">500k+</input>
+				</label>
+			</fieldset>
+			<button name="submit">Submit</button>
+		</form>
+	</body>
+</html>
